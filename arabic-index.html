@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Font Awesome file link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <title>Alfarah</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="header-logo">
+                <img src="images/new-logo.png" alt="LOGO IMAGE">
+            </div>
+
+            <!-- Menu icon for mobile view -->
+            <div class="fas fa-bars" id="menu-icon"></div>
+            <div class="fas fa-times" id="close-icon"></div>
+
+            <div class="header-link">
+                <a href="/arabic-faq.html" id="faq-link" class="text-direction ">أسئلة متكررة</a>
+                <a href="#" id="talkToProsBtn" class="text-direction ">التحدث إلى المهنية</a>
+                <a href="/index.html" id="arabic-link">English</a>
+                <div class="search-bar text-direction ">
+                    <input type="text" class="text-direction " placeholder="Search...">
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+        </div>
+
+        <nav class="main-nav" id="main-nav">
+          <ul>
+              <li><a href="/arabic-index.html" class="nav-link text-direction ">بيت</a></li>
+              <li>
+                  <a href="/arabic-about.html" class="nav-link text-direction ">نبذة عنا<i class="fa-solid fa-caret-down dropdown-icon"></i></a>
+                  <ul>
+                      <li><a href="#" class="nav-link text-direction text-right-nm">فريقنا</a></li>
+                      <li><a href="/arabic-about.html" class="nav-link text-direction text-right-nm ">رؤيتنا ومهمتنا</a></li>
+                      <!-- <li><a href="/about.html#our-managemnet" class="nav-link">Management</a></li> -->
+                  </ul>
+              </li>
+              <li>
+                  <a href="/arabic-services.html" class="nav-link text-direction ">خدماتنا <i class="fa-solid fa-caret-down dropdown-icon"></i></a>
+                  <ul>
+                      <li><a href="/arabic-services.html#assesment" class="nav-link text-direction text-right-nm">التقييمات</a></li>
+                      <li><a href="/arabic-services.html#program" class="nav-link text-direction text-right-nm">البرنامج النهاري المتكامل</a></li>
+                      <li><a href="/arabic-services.html#theory" class="nav-link text-direction text-right-nm">العلاج الفردي</a></li>
+                  </ul>
+              </li>
+              <li><a href="/arabic-facility.html" class="nav-link text-direction ">غرف الأنشطة</a></li>
+              <li><a href="/arabic-careers.html" class="nav-link text-direction ">العمل معنا</a></li>
+              <li><a href="/arabic-news.html" class="nav-link text-direction ">أخبارنا</a></li>
+              <li>
+                  <a href="#" class="nav-link text-direction " id="#">استمارة التسجيل 
+                      <i class="fas fa-download"></i>
+                  </a>
+                  <ul>
+                    <li>
+                      <a 
+                          href="https://docs.google.com/forms/d/e/1FAIpQLSfm8_QR_t7AoCTDGm4N4tCyXP7VnHvkPY0Aleybmawjdj6kfA/viewform" 
+                          id="confirm-download" 
+                          class="nav-link text-direction text-right-nm">
+                          استمارة التسجيل
+                      </a>
+                  </li>
+                    <li><a href="" id="cancel-download" class="nav-link text-direction text-right-nm">استمارة التسجيل</a></li>
+                    
+                </ul>
+              </li>
+              <li class="arabic"> <a href="/index.html" id="arabic-link">English</a></li>
+          </ul>
+      </nav>
+      
+      <!-- Modal Structure -->
+      <!-- <div id="download-modal" class="modal">
+          <div class="modal-content text-direction">
+              <span class="close-btn">&times;</span>
+              <h2>إعادة التوجيه إلى نموذج الطلب</h2>
+              <p>هل أنت متأكد أنك تريد الذهاب إلى النموذج؟</p>
+              <button id="confirm-download">نعم، إعادة التوجيه</button>
+              <button id="cancel-download">تحميل النموذج</button>
+          </div>
+      </div>
+       -->
+    </header>
+
+    <section class="home-section">
+    
+      <div class="home-text">
+        <h1 class="text-right text-direction">الفرح يحييكم</h1>
+          <h2 class="text-right text-direction">معًا نمهد طريق طفلكم نحو<span>التعلم، والمتعة، والتطور</span> 
+            </h2>
+        <p class="text-right text-direction">نعمل على توفير بيئة تزهر فيها إمكانات الطفل، ونضمن أعلى
+            مستويات الرعاية والدعم للأطفال أصحاب الهمم من خلال برامج
+            متخصصة شاملة</p>
+
+          <button class="gradient-button text-right-two text-direction" onclick="window.location.href='arabic-services.html'">اكتشف المزيد</button>
+
+    </div>
+    
+      <div class="home-image">
+        <img src="./img/1.png" alt="Home Image">
+      </div>
+  
+
+      <!-- <div class="image-over-side"></div> -->
+      
+    </section>
+
+    <!-- <section class="about-section">
+      <div class="about-text">
+        <div class="about-header">
+          <h1>Learn More About Who We Are !</h1>
+         
+        </div>
+        <div class="about-content">
+          <p>A dedicated team of professionals passionate about contributing to the well-being of children, especially those of determination. Our mission is to support and empower children, helping them reach their fullest potential through specialized care and individualized attention.</p>
+        </div>
+        <div class="image-over-side-2"></div>
+      </div>
+      <div class="about-block">
+        <div class="about-image">
+          <img src="./images/about-container.png" alt="Home Image">
+        </div>
+      
+        <div class="about-cards">
+          <a href="./about.html#our-team" class="card-link">
+            <div class="card">
+              <img src="./icons/Comp 21 (0;00;00;00).png" alt="Our Team" class="card-icon">
+              <div class="card-content">
+                <h3>Our Team</h3> -->
+                <!-- <p>Alfarah team is a tight-knit, multicultural group of competent, knowledgeable, and passionate professionals in rehabilitation and therapy interventions.</p> -->
+              <!-- </div>
+              <i class="fas fa-arrow-right arrow-icon"></i>
+            </div>
+          </a>
+          <a href="./about.html" class="card-link">
+          <div class="card">
+            <img src="./icons/Comp 10 (0;00;00;00).png" alt="Our Mission" class="card-icon">
+            <div class="card-content">
+              <h3>Our Mission</h3> -->
+              <!-- <p>To understand the unique profile of each child and provide individually tailored rehabilitation plans and high-quality interventions, achieving measurable goals on the path to unlocking full potential.</p> -->
+            <!-- </div>
+            <i class="fas fa-arrow-right arrow-icon"></i>
+          </div>
+          </a>
+
+          <a href="./about.html" class="card-link">
+          <div class="card">
+            <img src="./icons/Comp 35 (0;00;00;00).png" alt="Our Vision" class="card-icon">
+            <div class="card-content">
+              <h3>Management</h3> -->
+              <!-- <p>To be a leading center of excellence and trust, fostering holistic progress for children of determination and their families, while actively promoting a community that understands and more.</p> -->
+            <!-- </div>
+            <i class="fas fa-arrow-right arrow-icon"></i>
+          </div>
+        </a>
+        </div>
+   
+      </div>
+       -->
+    
+    
+
+<!-- <div class="image-over-side-3"></div> -->
+<!-- <div class="image-over-side-4"></div>    -->
+    <!-- </section> -->
+    <section class="facilities-section facilities-section-2">
+    
+     
+      <div class="facilities-content">
+        <div class="facilities-header text-direction">
+       
+          <h1>خدماتنا</h1>
+          <p>استكشف المرافق المختلفة التي نقدمها لتعزيز تجربتك وتقديم خدمات من الدرجة الأولى</p>
+        </div>
+        <div class="facilities-cards">
+        
+          <div class="card-facility card-facility-2 text-direction">
+            <img src="./icons/full day program.png" alt="Facility 1" class="card-icon-facilities-2">
+            <h3>البرنامج النهاري المتكامل</h3>
+            <p> فعاليات صفية منظمة تركز على بناء وتطوير المهارات للأطفال
+                ذوي الاضطرابات النمائية؛ كاضطراب طيف التوحد، والإعاقة الذهنية </p>
+          </div>
+          <div class="card-facility card-facility-2 text-direction">
+            <img src="./icons/assessment.png" alt="Facility 2" class="card-icon-facilities-2">
+            <h3>التقييمات</h3>
+            <p>يعتمد مركز الفرح على استخدام تقييمات مقننة ومعتمدة في مجال
+                تطور الطفل والقدرة على التعلم </p>
+          </div>
+      
+         
+          <div class="card-facility card-facility-2 text-direction">
+            <img src="./icons/speech language therapy.png" alt="Facility 5" class="card-icon-facilities-2">
+            <h3>علاج النطق واللغة</h3>
+            <p>القدرة على التواصل هي حق لكل فرد؛ لذلك يهتم فريقنا بتنمية
+                مهارات التواصل لدى الأطفال؛ لتمكينهم من التواصل مع محيطهم بأكثر
+                طريقة فعالة ممكنة</p>
+          </div>
+          <div class="card-facility card-facility-2 text-direction">
+            <img src="./icons/behav therapy.png" alt="Facility 4" class="card-icon-facilities-2">
+            <h3>العلاج السلوكي</h3>
+            <p>يستثمر فريقنا مكامن القوة عند الطفل لغرس مهارات جديدة، وتعديل
+                السلوك بما يحقق فرصة أكبر للطفل للنجاح والتأقلم</p>
+          </div>
+          <div class="card-facility card-facility-2 text-direction">
+            <img src="./icons/occupational therapy.png" alt="Facility 6" class="card-icon-facilities-2">
+            <h3>العلاج الوظيفي</h3>
+            <p>يوفر العلاج الوظيفي الأنشطة التي تركز على أداء المهام الحركية
+                والحسية التي تهدف إلى زيادة القدرة على أداء المهام الحياتية اليومية
+وصولًا إلى تحقيق الاستقلالية</p>
+          </div>
+
+          <div class="card-facility card-facility-2 text-direction">
+            <img src="./icons/individual session.png" alt="Facility 3" class="card-icon-facilities-2">
+            <h3>التدخلات النفسية</h3>
+            <p>تهدف التدخلات النفسية إلى موازنة أنماط التفكير، والمشاعر،
+                والسلوك، تشمل أيضًا تنمية الوظائف الذهنية والذكاء العاطفي</p>
+          </div>
+        </div>
+        <!-- <a href="/facilities" class="icon-button">
+          <i class="fas fa-arrow-right"></i>
+        </a> -->
+
+    
+      </div>
+      <div class="button-container">
+        <div class="button text-direction">
+          <a href="/arabic-services.html" style="color: #003C71;"> اكتشف المزيد</a>
+         
+          <i class="fas fa-arrow-right"></i> <!-- Font Awesome arrow icon -->
+        </div>
+      </div>
+    </section>
+    
+    <section class="services-section">
+  
+      <!-- <div class="image-over-side-5"></div> -->
+      <div class="services-left">
+        <div class="collage">
+          <!-- Added unique IDs to each image -->
+          <img src="./images/11.jpg" alt="Service 1" id="image-1" class="collage-item one ">
+          <img src="./images/10.jpg" alt="Service 2" id="image-2" class="collage-item two ">
+          <img src="./images/14.jpg" alt="Service 3" id="image-3" class="collage-item three">
+          <img src="./images/13.jpg" alt="Service 4" id="image-4" class="collage-item four">
+        </div>
+      
+      
+      </div>
+      
+      <div class="services-right text-right text-direction">
+        <h1>مرافقنا</h1>
+        <p>نحن نهدف إلى عكس جودة الرعاية التي سيحصل عليها الأطفال من خلال مرافقنا، مما يخلق بيئة إعادة تأهيل ترحيبية ومبهجة ومجهزة بالموارد اللازمة. نحن نولي أهمية كبيرة لتدابير الصحة والسلامة، فضلاً عن الخصوصية والراحة للآباء</p>
+        <div class="services-cards">
+          <a href="./arabic-facility.html" class="card-link">
+          <div class="card-new">
+            <div class="card-header card-header-2">
+              <img src="./icons/Comp 36 (0;00;00;00).png" alt="Card 1" class="card-icon-new">
+              <h3 class="card-header-2 text-direction">غرفة حسية</h3>
+              <i class="fas fa-arrow-right"></i> <!-- Add your icon here -->
+            </div>
+            
+          </div>
+          </a>
+          
+           
+        
+          <a href="./arabic-facility.html" class="card-link">
+          <div class="card-new">
+            <div class="card-header card-header-2">
+              <img src="./icons/Comp 11 (0;00;00;00).png" alt="Card 1" class="card-icon-new">
+              <h3  class="card-header-2 text-direction">فصول برنامج يوم كامل</h3>
+              <i class="fas fa-arrow-right"></i> <!-- Add your icon here -->
+            </div>
+            
+          </div>
+          </a>
+
+          <a href="./arabic-facility.html" class="card-link">
+           
+          <div class="card-new">
+            <div class="card-header card-header-2">
+              <img src="./icons/Comp 18 (0;00;00;00).png" alt="Card 1" class="card-icon-new">
+              <h3  class="card-header-2 text-direction">غرف العلاج الفردية</h3>
+              <i class="fas fa-arrow-right"></i> <!-- Add your icon here -->
+            </div>
+            
+          </div>
+
+          </a>
+
+          <a href="./arabic-facility.html" class="card-link">
+
+          <div class="card-new">
+            <div class="card-header card-header-2">
+              <img src="./icons/Comp 19 (0;00;00;00).png" alt="Card 1" class="card-icon-new">
+              <h3  class="card-header-2 text-direction">نادي رياضي</h3>
+              <i class="fas fa-arrow-right"></i> <!-- Add your icon here -->
+            </div>
+            
+          </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="lets-talk-section">
+      <div class="lets-talk-left">
+        <h1>Let's Talk</h1>
+        <h2>We'd Love to Hear From You</h2>
+        <p>Whether you have questions about our services, need support, or just want to chat, we're here to help. Get in touch with us and let's discuss how we can work together to achieve your goals.</p>
+      </div>
+      <div class="lets-talk-right">
+        <a href="/contact" class="lets-talk-button">Let's Connect</a>
+      </div>
+    </section>
+    
+     -->
+
+
+     <section class="contact-section contact-section-2">
+      <div class="contact-info-2 text-right">
+        <h2 class="contact-info-2 text-direction">تواصل معنا</h2>
+        <div class="contact-item contact-item-2 text-direction">
+          <img src="./icons/Comp 28 (0;00;00;00).png" alt="Email Icon" class="contact-icon"> <!-- Custom email icon -->
+          <p>بريد إلكترونيات : info@alfarahcenter.com</p>
+        </div>
+        <div class="contact-item contact-item-2 text-direction">
+          <img src="./icons/Comp 8 (0;00;00;00).png" alt="Phone Icon" class="contact-icon"> <!-- Custom phone icon -->
+          <p>الهاتف : 0567019877</p>
+        </div>
+        <div class="contact-item contact-item-2 text-direction">
+          <img src="./icons/Comp 3 (0;00;00;00).png" alt="Location Icon" class="contact-icon"> <!-- Custom location icon -->
+          <p>Al Nawafil St - Khalifa City - Sector 33<br>Abu Dhabi</p>
+        </div>
+        <div class="contact-item contact-item-2 text-direction">
+          <img src="./icons/Comp 35 (0;00;00;00).png" alt="Info Icon" class="contact-icon"> <!-- Custom info icon -->
+          <p> فريق متخصص من المهنيين المتحمسين للمساهمة في رفاهية الأطفال، وخاصة أصحاب الهمم.</p>
+        </div>
+        <!-- <button id="talkToProsBtn" class="talk-to-pros-btn">Talk to Professionals</button> -->
+        <div class="map-container">
+          <!-- Replace the src URL with your Google Maps iframe embed URL -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3633.307835839213!2d54.566214574812186!3d24.40537086331785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e465fb41e0aa3%3A0xf25db3b6b1ae0fdd!2sAl%20Nawafil%20St%20-%20Khalifa%20City%20-%20Abu%20Dhabi%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1729500853190!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      
+      </div>
+    
+    
+<!-- Modal Popup Form -->
+
+<section id="get-help"></section>
+<div id="support-modal" class="custom-modal" style="display: none;">
+  <div class="custom-modal-box">
+    <span class="custom-modal-close" id="closeModal">&times;</span>
+    <h2 class="custom-modal-title">اترك هنا الرسالة</h2>
+    <form id="supportForm" action="https://api.web3forms.com/submit" method="POST">
+      <!-- Hidden access key for Web3Forms -->
+      <input type="hidden" name="access_key" value="31c3f84a-a9aa-41ee-9c8d-4406996a1bf7">
+          
+      <!-- Hidden CC email field -->
+      <input type="hidden" name="cc" value="info@alfarahcenter.com">
+      <!-- Form Fields -->
+      <label for="name" class="custom-label">اسم:</label>
+      <input type="text" id="name" name="name" class="custom-input" required>
+
+      <label for="email" class="custom-label">بريد إلكتروني:</label>
+      <input type="email" id="email" name="email" class="custom-input" required>
+
+      <label for="message" class="custom-label">رسالة:</label>
+      <textarea id="message" name="message" rows="4" class="custom-textarea" required></textarea>
+
+      <!-- Submit Button -->
+      <button type="submit" class="custom-submit-btn">أرسل رسالة</button>
+    </form>
+  </div>
+</div>
+
+
+<div class="contact-form contact-form-2 text-right text-right-new">
+  <div class="background-design"></div>
+  <h2 class="text-right text-right-new text-direction">اتصل بنا</h2>
+  <form action="https://api.web3forms.com/submit" method="POST">
+      <div class="form-group">
+          <!-- Hidden access key to authenticate with Web3Forms -->
+          <input type="hidden" name="access_key" value="31c3f84a-a9aa-41ee-9c8d-4406996a1bf7">
+          
+          <!-- Hidden CC email field -->
+          <input type="hidden" name="cc" value="info@alfarahcenter.com">
+          
+          <label for="first-name" class="text-direction">اسم</label>
+          <input type="text" id="first-name" class="text-direction" name="name" required>
+      </div>
+      
+      <div class="form-group">
+          <label for="phone" class="text-direction">رقم التليفون</label>
+          <input type="tel" id="phone" class="text-direction" name="phone" required>
+      </div>
+      
+      <div class="form-group">
+          <label for="email" class="text-direction">بريد إلكتروني</label>
+          <input type="email" id="email" class="text-direction" name="email" required>
+      </div>
+      
+      <div class="form-group">
+          <label for="message" class="text-direction">رسالتك</label>
+          <textarea id="message" name="message" class="text-direction" rows="4" required></textarea>
+      </div>
+      
+      <button type="submit" class="send-button text-direction">أرسل رسالة</button>
+  </form>
+</div>
+
+
+      
+    </section>
+    
+    
+  </section>
+  <footer class="footer-section text-reverse">
+    <div class="footer-left ">
+      <img src="./images/logo.png" alt="Alfarah Logo" class="footer-logo text-right">
+      <p class="footer-info text-right text-direction">تلتزم شركة الفرح بتقديم خدمات وحلول الأسواق. نحن ملتزمون بالجودة والتميز في كل ما نقوم به. اتصل بنا لمزيد من المعلومات وفرص المشاركة
+      </p>
+    </div>
+  
+    <div class="quick-links text-right text-direction">
+      <h4>روابط سريعة</h4>
+      <ul class="text-direction">
+        <li><a href="./arabic-index.html">بيت</a></li>
+        <li><a href="./arabic-about.html">نبذة عنا</a></li>
+        <li><a href="./arabic-services.html">خدماتنا</a></li>
+        <li><a href="./arabic-careers.html">العمل معنا</a></li>
+        <li><a href="./arabic-news.html">أخبارنا</a></li>
+        <li><a href="./arabic-faq.html">أسئلة متكررة</a></li>
+      </ul>
+    </div>
+  
+    <div class="footer-right text-right text-direction">
+      <h2>تابعونا</h2>
+      <div class="text-reverse social-media">
+       
+        <a href="https://www.facebook.com/profile.php?id=61566609495845" class="social-icon text-reverse "><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/company/alfarahcenter/posts/?feedView=all" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/alfarahcenter.ae/" class="social-icon"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="button-container-beneath">
+        <button id="talkToProsBtnNew" class="talk-to-pros-btn text-direction">التحدث إلى المهنية</button>
+        <a href="arabic-index.html#get-help"><button id="contact-link" class="Get-In text-direction ">تواصل معنا</button></a>
+        <button id="talkTo" class="Chat-On text-direction" onclick="openWhatsApp()">محادثة عبر واتساب</button>
+
+    </div>
+    
+    </div>
+
+   
+  </footer>
+  <div class="footer-copyright text-direction">
+    <p>&copy; جميع الحقوق محفوظة.</p>
+  </div>
+  
+  
+    
+    
+ 
+
+    <script>
+    // Get references to elements
+const talkToProsBtn = document.getElementById('talkToProsBtnNew'); // Button element
+const talkToProsLink = document.getElementById('talkToProsBtn');  // Link element
+const supportModal = document.getElementById('support-modal');
+const closeModal = document.getElementById('closeModal');
+
+// Function to open the modal
+function openModal(event) {
+    event.preventDefault(); // Prevent default link behavior
+    supportModal.style.display = 'block'; // Show the modal
+}
+
+// Function to close the modal
+function closeModalHandler() {
+    supportModal.style.display = 'none'; // Hide the modal
+}
+
+// Event listeners
+talkToProsBtn.addEventListener('click', openModal); // Open modal on button click
+talkToProsLink.addEventListener('click', openModal); // Open modal on link click
+closeModal.addEventListener('click', closeModalHandler); // Close modal on close button click
+
+// Close modal if user clicks outside the modal box
+window.addEventListener('click', (event) => {
+    if (event.target === supportModal) {
+        supportModal.style.display = 'none';
+    }
+});
+
+
+      
+    </script>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Font Awesome file link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="facility.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <title>Alfarah</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header-container">
+        <div class="header-logo">
+            <img src="images/new-logo.png" alt="LOGO IMAGE">
+        </div>
+
+        <!-- Menu icon for mobile view -->
+        <div class="fas fa-bars" id="menu-icon"></div>
+        <div class="fas fa-times" id="close-icon"></div>
+
+        <div class="header-link">
+            <a href="/faq.html" id="faq-link">FAQs</a>
+            <a href="#" id="talkToProsBtn">Talk To Professional</a>
+            <a href="/arabic-index.html" id="arabic-link">العربية</a>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+    </div>
+
+    <nav class="main-nav" id="main-nav">
+      <ul>
+          <li><a href="/index.html" class="nav-link">Home</a></li>
+          <li>
+              <a href="/about.html" class="nav-link">About Us<i class="fa-solid fa-caret-down dropdown-icon"></i></a>
+              <ul>
+                  <li><a href="#" class="nav-link">Our Team</a></li>
+                  <li><a href="/about.html" class="nav-link">Vision & Mission</a></li>
+                  <!-- <li><a href="/about.html#our-managemnet" class="nav-link">Management</a></li> -->
+              </ul>
+          </li>
+          <li>
+              <a href="/services.html" class="nav-link">Services <i class="fa-solid fa-caret-down dropdown-icon"></i></a>
+              <ul>
+                  <li><a href="/services.html#assesment" class="nav-link">Assessment</a></li>
+                  <li><a href="/services.html#program" class="nav-link">Full Day Program</a></li>
+                  <li><a href="/services.html#theory" class="nav-link">Therapy</a></li>
+              </ul>
+          </li>
+          <li><a href="/facility.html" class="nav-link">Facilities</a></li>
+          <li><a href="/careers.html" class="nav-link">Careers</a></li>
+          <li><a href="/news.html" class="nav-link">News & Events</a></li>
+          <li>
+              <a href="#" class="nav-link" id="#">Application Form 
+                  <i class="fas fa-download"></i>
+              </a>
+              <ul>
+                <li>
+                  <a 
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSfm8_QR_t7AoCTDGm4N4tCyXP7VnHvkPY0Aleybmawjdj6kfA/viewform" 
+                      id="confirm-download" 
+                      class="nav-link">
+                      Registration form
+                  </a>
+              </li>
+                <li><a href="" id="cancel-download" class="nav-link">Download Form</a></li>
+                
+            </ul>
+          </li>
+          <li class="arabic"> <a href="/arabic-index.html" id="arabic-link">العربية</a></li>
+      </ul>
+  </nav>
+  
+  <!-- Modal Structure -->
+  <!-- <div id="download-modal" class="modal">
+      <div class="modal-content">
+          <span class="close-btn">&times;</span>
+          <h2>Redirect To Application Form</h2>
+          <p>Are you sure you want go to the form?</p>
+          <button id="confirm-download">Yes, Redirect</button>
+          <button id="cancel-download">Download Form</button>
+      </div>
+  </div> -->
+  
+</header>
+
+    
+    <section class="offerings-section " style="background-color: white;">
+        <div class="offerings-content">
+          <div class="offerings-header">
+            <h1>Our Facilities</h1>
+            <p style="text-align: justify;">We aim to reflect the quality of care children will receive through our facilities, creating a welcoming and joyful rehabilitation environment equipped with necessary resources. We place a high value on health and safety measures, as well as privacy and comfort for parents.</p>
+          </div>
+        </div>
+        <div class="offerings-image offerings-image-facility">
+          <img src="img/11.png" alt="Offerings Image">
+        </div>
+
+        
+      </section>
+      
+      <section>
+        <div class="card-grid">
+            <div class="card-item">
+                <div class="icon">
+                    <img src="icons/Comp 10 (0;00;00;00).png" alt="Icon 1">
+                </div>
+                <div class="text">
+                    <h3>Classes of full-day program</h3>
+                    <p>Full-day program classes focus on skill development for children with developmental delays.</p>
+                </div>
+            </div>
+        
+            <div class="card-item">
+                <div class="icon">
+                    <img src="icons/Comp 35 (0;00;00;00).png" alt="Icon 2">
+                </div>
+                <div class="text">
+                    <h3>Individual therapy rooms</h3>
+                    <p>Individual therapy rooms provide focused care for children's unique needs.</p>
+                </div>
+            </div>
+        
+            <div class="card-item">
+                <div class="icon">
+                    <img src="icons/Comp 33 (0;00;00;00).png" alt="Icon 3">
+                </div>
+                <div class="text">
+                    <h3>Sensory Room</h3>
+                    <p>Sensory room supports sensory development through various interactive stimuli and activities.</p>
+                </div>
+            </div>
+        
+            <div class="card-item">
+                <div class="icon">
+                    <img src="icons/Comp 19 (0;00;00;00).png" alt="Icon 4">
+                </div>
+                <div class="text">
+                    <h3>Gym</h3>
+                    <p>The gym is equipped to support physical development with exercises and equipment tailored to children's needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+     
+      
+      
+
+      
+ <!-- Modal Popup Form -->
+ <section id="get-help"></section>
+ <div id="contactModal" class="contact-modal">
+  <div class="contact-modal-content">
+    <span id="contact-close" class="contact-close">&times;</span>
+    <h2>Leave Here Message</h2>
+    <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+       <!-- Hidden access key to authenticate with Web3Forms -->
+       <input type="hidden" name="access_key" value="31c3f84a-a9aa-41ee-9c8d-4406996a1bf7">
+       <!-- Set recipient email -->
+       <input type="hidden" name="to_email" value="info@alfarahcenter.com">
+
+       <label for="name">Name:</label>
+       <input type="text" id="name" name="name" required>
+
+       <label for="email">Email:</label>
+       <input type="email" id="email" name="email" required>
+
+       <label for="message">Message:</label>
+       <textarea id="message" name="message" rows="4" required></textarea>
+
+       <button type="submit" class="send-button">Send Message</button>
+    </form>
+  </div>
+</div>
+<footer class="footer-section">
+  <div class="footer-left">
+    <img src="./images/logo.png" alt="Alfarah Logo" class="footer-logo">
+    <p class="footer-info">
+      Alfarah is dedicated to providing exceptional services and solutions. We are committed to quality and excellence in all that we do. Contact us for more information and partnership opportunities.
+    </p>
+  </div>
+
+  <div class="quick-links">
+    <h4>Quick Links</h4>
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./about.html">About Us</a></li>
+      <li><a href="./services.html">Services</a></li>
+      <li><a href="./careers.html">Careers</a></li>
+      <li><a href="./news.html">News & Events</a></li>
+      <li><a href="./faq.html">FAQ</a></li>
+    </ul>
+  </div>
+
+  <div class="footer-right">
+    <h2>Follow Us</h2>
+    <div class="social-media">
+     
+      <a href="https://www.facebook.com/profile.php?id=61566609495845" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/company/alfarahcenter/posts/?feedView=all" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://www.instagram.com/alfarahcenter.ae/" class="social-icon"><i class="fab fa-instagram"></i></a>
+    </div>
+    <div class="button-container-beneath">
+      <button id="talkToProsBtnNew" class="talk-to-pros-btn">Talk to Professional</button>
+      <a href="index.html#get-help"><button id="contact-link" class="Get-In ">Get In Touch</button></a>
+      <button id="talkTo" class="Chat-On" onclick="openWhatsApp()">Chat on WhatsApp</button>
+
+  </div>
+  
+  </div>
+
+ 
+</footer>
+<div class="footer-copyright">
+  <p>&copy; 2024 Your Company. All rights reserved.</p>
+</div>
+
+
+
+
+<script>
+  // Get references to elements
+const talkToProsBtn = document.getElementById('talkToProsBtnNew'); // Button element
+const talkToProsLink = document.getElementById('talkToProsBtn');  // Link element
+const supportModal = document.getElementById('contactModal');
+const closeModal = document.getElementById('contact-close');
+
+// Function to open the modal
+function openModal(event) {
+  event.preventDefault(); // Prevent default link behavior
+  supportModal.style.display = 'block'; // Show the modal
+}
+
+// Function to close the modal
+function closeModalHandler() {
+  supportModal.style.display = 'none'; // Hide the modal
+}
+
+// Event listeners
+talkToProsBtn.addEventListener('click', openModal); // Open modal on button click
+talkToProsLink.addEventListener('click', openModal); // Open modal on link click
+closeModal.addEventListener('click', closeModalHandler); // Close modal on close button click
+
+// Close modal if user clicks outside the modal box
+window.addEventListener('click', (event) => {
+  if (event.target === supportModal) {
+      supportModal.style.display = 'none';
+  }
+});
+
+
+    
+  </script>
+      <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Font Awesome file link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <title>Alfarah</title>
+    <style>
+        .classes-emporing {
+            font-size: 2.4rem !important;
+        }
+
+        @media (min-width: 320px) and (max-width: 500px) {
+
+            .classes-emporing {
+            font-size: 1.8rem !important;
+        }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="header-logo">
+                <img src="images/new-logo.png" alt="LOGO IMAGE">
+            </div>
+
+            <!-- Menu icon for mobile view -->
+            <div class="fas fa-bars" id="menu-icon"></div>
+            <div class="fas fa-times" id="close-icon"></div>
+
+            <div class="header-link">
+                <a href="/faq.html" id="faq-link">FAQs</a>
+                <a href="#" id="talkToProsBtn">Talk To Professional</a>
+                <!-- <a href="#" id="arabic-link">العربية</a> -->
+                <div class="search-bar">
+                    <input type="text" placeholder="Search...">
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+        </div>
+
+        <nav class="main-nav" id="main-nav">
+          <ul>
+              <li><a href="/index.html" class="nav-link">Home</a></li>
+              <li>
+                  <a href="/about.html" class="nav-link">About Us<i class="fa-solid fa-caret-down dropdown-icon"></i></a>
+                  <ul>
+                      <li><a href="#" class="nav-link">Our Team</a></li>
+                      <li><a href="/about.html" class="nav-link">Vision & Mission</a></li>
+                      <!-- <li><a href="/about.html#our-managemnet" class="nav-link">Management</a></li> -->
+                  </ul>
+              </li>
+              <li>
+                  <a href="/services.html" class="nav-link">Services <i class="fa-solid fa-caret-down dropdown-icon"></i></a>
+                  <ul>
+                      <li><a href="/services.html#assesment" class="nav-link">Assessment</a></li>
+                      <li><a href="/services.html#program" class="nav-link">Full Day Program</a></li>
+                      <li><a href="/services.html#theory" class="nav-link">Therapy</a></li>
+                  </ul>
+              </li>
+              <li><a href="/facility.html" class="nav-link">Facilities</a></li>
+              <li><a href="/careers.html" class="nav-link">Careers</a></li>
+              <li><a href="/news.html" class="nav-link">News & Events</a></li>
+              <li>
+                  <a href="#" class="nav-link" id="application-form-link">Application Form 
+                      <i class="fas fa-download"></i>
+                  </a>
+              </li>
+          </ul>
+      </nav>
+      
+      <!-- Modal Structure -->
+      <div id="download-modal" class="modal">
+          <div class="modal-content">
+              <span class="close-btn">&times;</span>
+              <h2>Redirect To Application Form</h2>
+              <p>Are you sure you want go to the form?</p>
+              <button id="confirm-download">Yes, Redirect</button>
+              <button id="cancel-download">Download Form</button>
+          </div>
+      </div>
+      
+    </header>
+
+    <section class="home-section">
+    
+      <div class="home-text">
+        <h1>Welcome to <span class="colorful-text">Alfarah</span></h1>
+          <h2 class="classes-emporing" >Empowering Your Child’s Growth and Development–Tailored Therapy Programs!
+            </h2>
+        <p> We aim to create a new destination where every child’s potential can flourish, ensuring the highest
+            quality of care and support for children of determination, enabling them to achieve their goals
+            through comprehensive and specialized programs.</p>
+
+          <button class="gradient-button" onclick="window.location.href='landing.html'" style="width: 100%;">Schedule a Free Consultation Today!</button>
+
+    </div>
+    
+      <div class="home-image">
+        <img src="./img/1.png" alt="Home Image">
+      </div>
+  
+
+      
+    </section>
+
+   
+    </section>
+   
+
+    <section class="services-section">
+
+          <div class="service-reverse " style="margin-top: -8rem;">
+            <div class="service-image-reverse service-image-reverse-indi">
+                <img src="img/6.png" alt="Full-Day Program Image">
+              </div>
+            <div class="service-content-reverse service-content-reverse-two  service-content-reverse-two-new">
+              <h3>Specialized programs</h3>
+             <p>Our specialized programs cater to children with developmental challenges, offering expert care in a
+                safe and nurturing environment. We work closely with each child to ensure they reach their full
+                potential, Benefits:</p>
+              <ul class="service-points-reverse">
+                <li><span class="point-icon-reverse"></span> Tailored therapy programs for speech, occupational, behavioral and psychological needs.</li>
+                <li><span class="point-icon-reverse"></span> Individual and group sessions available to suit your child&#39;s needs.</li>
+                <li><span class="point-icon-reverse"></span> Individual and group sessions available to suit your child&#39;s needs.</li>
+                <li><span class="point-icon-reverse"></span> Safe, supportive, and inclusive environment for children of determination</li>
+              </ul>
+              
+            </div>
+           
+          </div>
+
+
+          
+      
+        <!-- Repeat this block for the remaining 4 services, alternating the reverse class -->
+      </section>
+
+
+     <section class="contact-section" style="margin-top: -5rem;">
+      <div class="contact-info">
+        <h2>Get in Touch</h2>
+        <div class="contact-item">
+          <img src="./icons/Comp 28 (0;00;00;00).png" alt="Email Icon" class="contact-icon"> <!-- Custom email icon -->
+          <p>Email: info@alfarahcenter.com</p>
+        </div>
+        <div class="contact-item">
+          <img src="./icons/Comp 8 (0;00;00;00).png" alt="Phone Icon" class="contact-icon"> <!-- Custom phone icon -->
+          <p>Phone: 0567019877</p>
+        </div>
+        <div class="contact-item">
+          <img src="./icons/Comp 3 (0;00;00;00).png" alt="Location Icon" class="contact-icon"> <!-- Custom location icon -->
+          <p>Al Nawafil St - Khalifa City - Sector 33<br>Abu Dhabi</p>
+        </div>
+        <div class="contact-item">
+          <img src="./icons/Comp 35 (0;00;00;00).png" alt="Info Icon" class="contact-icon"> <!-- Custom info icon -->
+          <p> A dedicated team of professionals
+            passionate about contributing to the well-being of children, especially those
+            of determination. </p>
+        </div>
+        <!-- <button id="talkToProsBtn" class="talk-to-pros-btn">Talk to Professionals</button> -->
+        <div class="map-container">
+          <!-- Replace the src URL with your Google Maps iframe embed URL -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3633.307835839213!2d54.566214574812186!3d24.40537086331785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e465fb41e0aa3%3A0xf25db3b6b1ae0fdd!2sAl%20Nawafil%20St%20-%20Khalifa%20City%20-%20Abu%20Dhabi%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1729500853190!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      
+      </div>
+    
+    
+ <!-- Modal Popup Form -->
+  <section id="get-help"></section>
+<div id="contactModal" class="contact-modal">
+  <div class="contact-modal-content">
+    <span class="contact-close">&times;</span>
+    <h2>Leave Here Message</h2>
+    <form id="contactForm" action="mailto:hr@alfarahcenter.com " method="post" enctype="text/plain">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit" class="send-button">Send Message</button>
+      
+    </form>
+  </div>
+</div>
+
+      <div class="contact-form">
+          <div class="background-design"></div>
+        <h2>Contact Us</h2>
+        <form action="mailto:hr@alfarahcenter.com" method="post" enctype="text/plain">
+          <div class="form-group">
+              <label for="first-name">Name</label>
+              <input type="text" id="first-name" name="first-name" required>
+          </div>
+          
+          <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" required>
+          </div>
+          
+          <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+          </div>
+          
+          <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          
+          <button type="submit" class="send-button">Send Message</button>
+      </form>
+      
+      </div>
+
+      
+    </section>
+    
+    
+  </section>
+    <footer class="footer-section">
+      <div class="footer-left">
+        <img src="./images/logo.png" alt="Alfarah Logo" class="footer-logo">
+        <p class="footer-info">
+          Alfarah is dedicated to providing exceptional services and solutions. We are committed to quality and excellence in all that we do. Contact us for more information and partnership opportunities.
+        </p>
+      </div>
+    
+      <div class="quick-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./careers.html">Careers</a></li>
+          <li><a href="./news.html">News & Events</a></li>
+          <li><a href="./faq.html">FAQ</a></li>
+        </ul>
+      </div>
+    
+      <div class="footer-right">
+        <h2>Follow Us</h2>
+        <div class="social-media">
+         
+          <a href="https://www.facebook.com/profile.php?id=61566609495845" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/company/alfarahcenter/posts/?feedView=all" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.instagram.com/alfarahcenter.ae/" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="button-container-beneath">
+          <button id="talkToProsBtnNew" class="talk-to-pros-btn">Talk to Professional</button>
+          <a href="index.html#get-help"><button id="contact-link" class="Get-In ">Get In Touch</button></a>
+          <button id="talkTo" class="Chat-On" onclick="openWhatsApp()">Chat on WhatsApp</button>
+
+      </div>
+      
+      </div>
+
+     
+    </footer>
+    <div class="footer-copyright">
+      <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>

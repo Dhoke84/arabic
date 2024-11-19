@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Font Awesome file link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <title>Alfarah</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header-container">
+        <div class="header-logo">
+            <img src="images/new-logo.png" alt="LOGO IMAGE">
+        </div>
+
+        <!-- Menu icon for mobile view -->
+        <div class="fas fa-bars" id="menu-icon"></div>
+        <div class="fas fa-times" id="close-icon"></div>
+
+        <div class="header-link">
+            <a href="/arabic-faq.html" id="faq-link" class="text-direction ">أسئلة متكررة</a>
+            <a href="#" id="talkToProsBtn" class="text-direction ">التحدث إلى المهنية</a>
+            <a href="/index.html" id="arabic-link">English</a>
+            <div class="search-bar text-direction ">
+                <input type="text" class="text-direction " placeholder="Search...">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+    </div>
+
+    <nav class="main-nav" id="main-nav">
+      <ul>
+          <li><a href="/arabic-index.html" class="nav-link text-direction ">بيت</a></li>
+          <li>
+              <a href="/arabic-about.html" class="nav-link text-direction ">نبذة عنا<i class="fa-solid fa-caret-down dropdown-icon"></i></a>
+              <ul>
+                  <li><a href="#" class="nav-link text-direction text-right-nm">فريقنا</a></li>
+                  <li><a href="/arabic-about.html" class="nav-link text-direction text-right-nm ">رؤيتنا ومهمتنا</a></li>
+                  <!-- <li><a href="/about.html#our-managemnet" class="nav-link">Management</a></li> -->
+              </ul>
+          </li>
+          <li>
+              <a href="/arabic-services.html" class="nav-link text-direction ">خدماتنا <i class="fa-solid fa-caret-down dropdown-icon"></i></a>
+              <ul>
+                  <li><a href="/arabic-services.html#assesment" class="nav-link text-direction text-right-nm">التقييمات</a></li>
+                  <li><a href="/arabic-services.html#program" class="nav-link text-direction text-right-nm">البرنامج النهاري المتكامل</a></li>
+                  <li><a href="/arabic-services.html#theory" class="nav-link text-direction text-right-nm">العلاج الفردي</a></li>
+              </ul>
+          </li>
+          <li><a href="/arabic-facility.html" class="nav-link text-direction ">غرف الأنشطة</a></li>
+          <li><a href="/arabic-careers.html" class="nav-link text-direction ">العمل معنا</a></li>
+          <li><a href="/arabic-news.html" class="nav-link text-direction ">أخبارنا</a></li>
+          <li>
+              <a href="#" class="nav-link text-direction " id="#">استمارة التسجيل 
+                  <i class="fa-solid fa-caret-down dropdown-icon"></i>
+              </a>
+              <ul>
+                <li>
+                  <a 
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSfm8_QR_t7AoCTDGm4N4tCyXP7VnHvkPY0Aleybmawjdj6kfA/viewform" 
+                      id="confirm-download" 
+                      class="nav-link text-direction text-right-nm">
+                      استمارة التسجيل
+                  </a>
+              </li>
+                <li><a href="" id="cancel-download" class="nav-link text-direction text-right-nm">استمارة التسجيل</a></li>
+                
+            </ul>
+          </li>
+          <li class="arabic"> <a href="/index.html" id="arabic-link">English</a></li>
+      </ul>
+  </nav>
+  
+  <!-- Modal Structure -->
+  <!-- <div id="download-modal" class="modal">
+      <div class="modal-content text-direction">
+          <span class="close-btn">&times;</span>
+          <h2>إعادة التوجيه إلى نموذج الطلب</h2>
+          <p>هل أنت متأكد أنك تريد الذهاب إلى النموذج؟</p>
+          <button id="confirm-download">نعم، إعادة التوجيه</button>
+          <button id="cancel-download">تحميل النموذج</button>
+      </div>
+  </div>
+   -->
+</header>
+
+    <section class="about-us">
+        <div class="about-content">
+            <div class="about-header text-right text-direction">
+                <h1>تعرف على المزيد حول من نحن!</h1>
+               
+              </div>
+            <p class="about-content-2 text-right text-direction">فريق متخصص من المهنيين المتحمسين للمساهمة في رفاهية الأطفال، وخاصة أصحاب الهمم. مهمتنا هي دعم الأطفال وتمكينهم، ومساعدتهم على تحقيق أقصى إمكاناتهم من خلال الرعاية المتخصصة والاهتمام الفردي</p>
+        </div>
+        <div class="about-image-2">
+            <img src="img/2.png" alt="About Us Image">
+        </div>
+
+        
+    </section>
+    <section>
+        <div class="info-card-container">
+            <div class="info-card info-card-2">
+              <div class="icon">
+                <img src="icons/Comp 10 (0;00;00;00).png" alt="Icon 1">
+              </div>
+              <div class="text text-right text-right-new text-direction">
+                <h3>مهمتنا</h3>
+                <p>إعادة تأهيل مصممة خصيصًا لكل طفل، مما يضمن التقدم نحو إمكاناته الكاملة.</p>
+              </div>
+            </div>
+          
+            <div class="info-card info-card-2">
+              <div class="icon">
+                <img src="icons/Comp 35 (0;00;00;00).png" alt="Icon 2">
+              </div>
+              <div class="text text-right text-right-new text-direction">
+                <h3>رؤيتنا</h3>
+                <p>الريادة في تمكين الأطفال أصحاب الهمم وبناء التفاهم المجتمعي.</p>
+              </div>
+            </div>
+          
+            <div class="info-card info-card-2">
+              <div class="icon">
+                <img src="icons/Comp 33 (0;00;00;00).png" alt="Icon 3">
+              </div>
+              <div class="text text-right text-right-new text-direction">
+                <h3>قيمنا</h3>
+                <p>الاحترام - التفاني - الصدق - القبول - التعاون - الاتساق. 
+                </p>
+              </div>
+            </div>
+          </div>
+          
+    </section>
+<!-- 
+    <section class="services-section-about" >
+  
+      <div class="image-over-side-53"></div>
+      <div class="services-left-about">
+        <div class="collage-about">
+          Added unique IDs to each image 
+          <img src="./images/11.jpg" alt="Service 1" id="image-1" class="collage-item-about one-about ">
+          <img src="./images/10.jpg" alt="Service 2" id="image-2" class="collage-item-about two-about ">
+          <img src="./images/14.jpg" alt="Service 3" id="image-3" class="collage-item-about three-about">
+          <img src="./images/13.jpg" alt="Service 4" id="image-4" class="collage-item-about four-about">
+        </div>
+      
+      
+      </div>
+      
+      <div class="services-right-about" >
+        <h1>Management</h1>
+        <p>Our management team plays a pivotal role in shaping the direction and success of our organization. With a wealth of experience in both education and child development, they are committed to fostering an environment that encourages growth, innovation, and excellence. The management team works tirelessly to ensure that all programs are delivered to the highest standards, continually monitoring and improving the quality of care provided. They focus on creating a supportive and collaborative atmosphere, where every team member is valued and empowered to contribute their best.</p>
+        
+      </div>
+    </section> -->
+    <!-- <section class="our-team" id="our-team">
+        <div class="team-header">
+          <h2 class="team-header-heading">Our Team</h2>
+          <p>One way we define our success is by our team. Alfarah team is a tight-knit, multicultural group of competent, knowledgeable, and passionate professionals in rehabilitation and therapy interventions. We believe our team is well-equipped to help children develop new skills and reach their best. By partnering with parents to reach realistic goals, our team ensures success</p>
+        </div>
+        
+       
+
+        <div class="team-cards">
+            <div class="team-card">
+              <img src="images/business-man-curly-cute-handsome-guy-black-suit-close-up-smiling.jpg" alt="Team Member 1">
+              <h3>John Doe</h3>
+              <p>Lead Developer</p>
+              <p class="team-description">John specializes in backend development and has over 10 years of experience in the tech industry.</p>
+            </div>
+            
+            <div class="team-card">
+              <img src="images/medium-shot-smiley-man-posing.jpg" alt="Team Member 2">
+              <h3>Jane Smith</h3>
+              <p>Project Manager</p>
+              <p class="team-description">Jane excels at managing complex projects and ensuring smooth operations across the team.</p>
+            </div>
+            
+            <div class="team-card">
+              <img src="images/smiling-brunette-girl-posing-with-coat.jpg" alt="Team Member 3">
+              <h3>Emily Brown</h3>
+              <p>UI/UX Designer</p>
+              <p class="team-description">Emily is passionate about creating intuitive and beautiful user interfaces and experiences.</p>
+            </div>
+            
+            <div class="team-card">
+              <img src="images/business-man-curly-cute-handsome-guy-black-suit-close-up-smiling.jpg" alt="Team Member 4">
+              <h3>Michael Lee</h3>
+              <p>QA Engineer</p>
+              <p class="team-description">Michael ensures our products meet the highest standards of quality and reliability.</p>
+            </div>
+          </div>
+
+          <div class="team-cards" style="margin-top: 5rem;">
+            <div class="team-card">
+              <img src="images/business-man-curly-cute-handsome-guy-black-suit-close-up-smiling.jpg" alt="Team Member 1">
+              <h3>John Doe</h3>
+              <p>Lead Developer</p>
+              <p class="team-description">John specializes in backend development and has over 10 years of experience in the tech industry.</p>
+            </div>
+            
+            <div class="team-card">
+              <img src="images/medium-shot-smiley-man-posing.jpg" alt="Team Member 2">
+              <h3>Jane Smith</h3>
+              <p>Project Manager</p>
+              <p class="team-description">Jane excels at managing complex projects and ensuring smooth operations across the team.</p>
+            </div>
+            
+            <div class="team-card">
+              <img src="images/smiling-brunette-girl-posing-with-coat.jpg" alt="Team Member 3">
+              <h3>Emily Brown</h3>
+              <p>UI/UX Designer</p>
+              <p class="team-description">Emily is passionate about creating intuitive and beautiful user interfaces and experiences.</p>
+            </div>
+            
+            <div class="team-card">
+              <img src="images/business-man-curly-cute-handsome-guy-black-suit-close-up-smiling.jpg" alt="Team Member 4">
+              <h3>Michael Lee</h3>
+              <p>QA Engineer</p>
+              <p class="team-description">Michael ensures our products meet the highest standards of quality and reliability.</p>
+            </div>
+          </div>
+      </section> -->
+ 
+ <!-- Modal Popup Form -->
+    
+
+ <section id="get-help"></section>
+ <div id="support-modal" class="custom-modal" style="display: none;">
+  <div class="custom-modal-box">
+    <span class="custom-modal-close" id="closeModal">&times;</span>
+    <h2 class="custom-modal-title">اترك هنا الرسالة</h2>
+    <form id="supportForm" action="https://api.web3forms.com/submit" method="POST">
+      <!-- Hidden access key for Web3Forms -->
+      <input type="hidden" name="access_key" value="31c3f84a-a9aa-41ee-9c8d-4406996a1bf7">
+          
+      <!-- Hidden CC email field -->
+      <input type="hidden" name="cc" value="info@alfarahcenter.com">
+      <!-- Form Fields -->
+      <label for="name" class="custom-label">اسم:</label>
+      <input type="text" id="name" name="name" class="custom-input" required>
+
+      <label for="email" class="custom-label">بريد إلكتروني:</label>
+      <input type="email" id="email" name="email" class="custom-input" required>
+
+      <label for="message" class="custom-label">رسالة:</label>
+      <textarea id="message" name="message" rows="4" class="custom-textarea" required></textarea>
+
+      <!-- Submit Button -->
+      <button type="submit" class="custom-submit-btn">أرسل رسالة</button>
+    </form>
+  </div>
+</div>
+
+      
+    </section>
+    <footer class="footer-section text-reverse">
+      <div class="footer-left ">
+        <img src="./images/logo.png" alt="Alfarah Logo" class="footer-logo text-right">
+        <p class="footer-info text-right text-direction">تلتزم شركة الفرح بتقديم خدمات وحلول الأسواق. نحن ملتزمون بالجودة والتميز في كل ما نقوم به. اتصل بنا لمزيد من المعلومات وفرص المشاركة
+        </p>
+      </div>
+    
+      <div class="quick-links text-right text-direction">
+        <h4>روابط سريعة</h4>
+        <ul class="text-direction">
+          <li><a href="./arabic-index.html">بيت</a></li>
+          <li><a href="./arabic-about.html">نبذة عنا</a></li>
+          <li><a href="./arabic-services.html">خدماتنا</a></li>
+          <li><a href="./arabic-careers.html">العمل معنا</a></li>
+          <li><a href="./arabic-news.html">أخبارنا</a></li>
+          <li><a href="./arabic-faq.html">أسئلة متكررة</a></li>
+        </ul>
+      </div>
+    
+      <div class="footer-right text-right text-direction">
+        <h2>تابعونا</h2>
+        <div class="text-reverse social-media">
+         
+          <a href="https://www.facebook.com/profile.php?id=61566609495845" class="social-icon text-reverse "><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/company/alfarahcenter/posts/?feedView=all" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.instagram.com/alfarahcenter.ae/" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="button-container-beneath">
+          <button id="talkToProsBtnNew" class="talk-to-pros-btn text-direction">التحدث إلى المهنية</button>
+          <a href="arabic-index.html#get-help"><button id="contact-link" class="Get-In text-direction ">تواصل معنا</button></a>
+          <button id="talkTo" class="Chat-On text-direction" onclick="openWhatsApp()">محادثة عبر واتساب</button>
+  
+      </div>
+      
+      </div>
+  
+     
+    </footer>
+    <div class="footer-copyright text-direction">
+      <p>&copy; جميع الحقوق محفوظة.</p>
+    </div>
+    
+    
+      
+      
+   
+  
+      <script>
+      // Get references to elements
+  const talkToProsBtn = document.getElementById('talkToProsBtnNew'); // Button element
+  const talkToProsLink = document.getElementById('talkToProsBtn');  // Link element
+  const supportModal = document.getElementById('support-modal');
+  const closeModal = document.getElementById('closeModal');
+  
+  // Function to open the modal
+  function openModal(event) {
+      event.preventDefault(); // Prevent default link behavior
+      supportModal.style.display = 'block'; // Show the modal
+  }
+  
+  // Function to close the modal
+  function closeModalHandler() {
+      supportModal.style.display = 'none'; // Hide the modal
+  }
+  
+  // Event listeners
+  talkToProsBtn.addEventListener('click', openModal); // Open modal on button click
+  talkToProsLink.addEventListener('click', openModal); // Open modal on link click
+  closeModal.addEventListener('click', closeModalHandler); // Close modal on close button click
+  
+  // Close modal if user clicks outside the modal box
+  window.addEventListener('click', (event) => {
+      if (event.target === supportModal) {
+          supportModal.style.display = 'none';
+      }
+  });
+  
+  
+        
+      </script>
+
+<script src="script.js"></script>
+  </body>
+  </html>
+  
