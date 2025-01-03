@@ -1882,3 +1882,63 @@ display: list-item;
   width: 25rem; /* Make the underline match the width of the text */
   right: 0%; /* Start the underline at the left edge of h2 */
 }
+.contact-info2 {
+  display: flex;
+  flex-direction: row; /* Row layout for items */
+  align-items: flex-start; /* Ensures items align at the start */
+  justify-content: flex-start; /* Ensures items start from the beginning */
+  padding: 5px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.contact-item2 {
+  display: flex;
+  align-items: flex-start; /* Ensures text and icon align at the start */
+  gap: 10px;
+}
+
+.icon2 {
+  font-size: 20px;
+  color: var(--color);
+}
+
+.contact-item2 span {
+  font-size: 16px;
+  color: var(--color);
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-info2 {
+    flex-direction: row; /* Switch to column layout for smaller screens */
+    align-items: flex-start; /* Maintain alignment at the start */
+    padding: 5px;
+  }
+
+  .contact-item2 span {
+    font-size: 15px;
+
+  }
+
+  .icon2 {
+    font-size: 20px;
+    background-color: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-info2 {
+    padding: 5px;
+  }
+
+  .contact-item2 span {
+    font-size: 10px;
+  
+  }
+
+  .icon2 {
+    font-size: 13px;
+    background-color: none;
+  }
+}
